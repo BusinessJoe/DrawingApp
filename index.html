@@ -7,18 +7,20 @@
 <body>
     <div class="content">
         <canvas id="canvas" width="600" height="600" style="border: solid black;"></canvas>
-        <div class="buttonLabelContainer" style="display: flex; align-items: center;">
-            <div class="label">Colour:</div>
-            <div id="colors"></div>
+        <div id="interface">
+            <div class="buttonLabelContainer" style="display: flex; align-items: center;">
+                <div class="label">Colour:</div>
+                <div id="colors"></div>
+            </div>
+            <div class="buttonLabelContainer" style="display: flex; align-items: center;">
+                <div class="label">Pen size:</div>
+                <div id="penSize"></div>
+            </div>
         </div>
-        <div class="buttonLabelContainer" style="display: flex; align-items: center;">
-            <div class="label">Pen size:</div>
-            <div id="penSize"></div>
-        </div>
-
-        <script src="canvas.js"></script>
-        <script src="addColorButtons.js"></script>
-        <script src="addPenSizeButtons.js"></script>
     </div>
+
+    <script src="canvas.js"></script>
+    <script src="addColorButtons.js"></script>
+    <script src="addPenSizeButtons.js"></script>
 </body>
 </html>
